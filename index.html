@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif;
+}
+a {
+  color:#f4f4f4;
+}
+
+
+.flag-container{
+  width:95%;
+  margin:auto;
+  margin-top:1%;
+  border-style:solid;
+  border-width: 10px;
+  border-color:rgb(9,100,12);
+  background-color:#f4f4f4;
+}
+
+@media only screen and (min-width: 500px) {
+  .flag-container{
+    border-width: 25px;
+  }
+}
+
+
+.footer-element{
+  margin-left: 3%;
+  color:grey;
+}
+
+.flag-image{
+  display: none;
+  width: calc(84.66% - 3.33px);
+  height: auto;
+  margin:0.5% calc(8.67% - 1.667px);
+}
+
+@media only screen and (min-width: 500px) {
+  .flag-image{
+    display: inline-block;
+    width: 15%;
+    height: auto;
+    margin:0.5% calc(9.167% - 4.167px);
+  }
+}
+
+.banner-text{
+  margin: auto;
+  font-size: 240%;
+  color: rgb(9,100,12);
+  display: table;
+  text-align: center;
+}
+
+@media only screen and (min-width: 500px) {
+  .banner-text{
+    margin: auto;
+    font-size: 310%;
+    color: rgb(9,100,12);
+    display: table;
+    text-align: center;
+  }
+}
+
+#football-tribe-logo{
+  display:none;
+}
+
+@media only screen and (min-width: 500px) {
+  #football-tribe-logo{
+    display:inline-block;
+  }
+}
+
+.flag-link:hover{
+  opacity:0.3;
+}
+
+.flag-link:hover > .flag-image {
+  display:none;
+}
+
+.flag-link:hover > .flag-image-alt {
+  display:inline-block;
+}
+
+.banner-text-bottom{
+  margin-top:-2%;
+}
+
+.flag-image-alt{
+  display:inline-block;
+}
+
+@media only screen and (min-width: 500px) {
+  .flag-image-alt{
+    display:none;
+  }
+}
+
+.link-container{
+  margin:auto;
+}
+
+</style>
+<body>
+<div class="flag-container">
+  <div class="banner-text banner-text-top">FEEL THE PASSION</div>
+    <div class="link-container">
+      <a class="flag-link" href="https://japan.football-tribe.com/">
+        <img class="flag-image" src="resources/jp.png" alt="日本語">
+        <img class="flag-image flag-image-alt" src="resources/jpnew.png" alt="日本語">
+      </a>
+      <a class="flag-link" href="http://football-tribe.com/vietnam/">
+        <img class="flag-image" src="resources/vn.png" alt="Tiếng Việt">
+        <img class="flag-image flag-image-alt" src="resources/vnnew.png" alt="Tiếng Việt">
+      </a>
+      <a class="flag-link" href="http://football-tribe.com/thailand/">
+        <img class="flag-image" src="resources/th.png" alt="ภาษาไทย">
+        <img class="flag-image flag-image-alt" src="resources/thnew.png" alt="ภาษาไทย">
+      </a>
+      <a class="flag-link" href="http://football-tribe.com/malaysia/">
+        <img class="flag-image" src="resources/my.png" alt="Bahasa Melayu">
+        <img class="flag-image flag-image-alt" src="resources/mynew.png" alt="Bahasa Melayu">
+      </a>
+        <img id="football-tribe-logo" class="flag-image" src="resources/logo.png" alt="Football Tribe">
+      <a class="flag-link" href="http://football-tribe.com/indonesia/">
+        <img class="flag-image" src="resources/id.png" alt="bahasa Indonesia">
+        <img class="flag-image flag-image-alt" src="resources/idnew.png" alt="bahasa Indonesia">
+      </a>
+      <a class="flag-link" href="http://football-tribe.com/iran/">
+        <img class="flag-image" src="resources/ir.png" alt="فارسی ">
+        <img class="flag-image flag-image-alt" src="resources/irnew.png" alt="فارسی ">
+      </a>
+      <a class="flag-link" href="http://football-tribe.com/asia/">
+        <img class="flag-image" src="resources/gb.png" alt="English">
+        <img class="flag-image flag-image-alt" src="resources/gbnew.png" alt="English">
+      </a>
+      <a class="flag-link" href="http://football-tribe.com/arabia/">
+        <img class="flag-image" src="resources/sa.png" alt="العربية">
+        <img class="flag-image flag-image-alt" src="resources/sanew.png" alt="العربية">
+      </a>
+    </div>
+  <div class="banner-text banner-text-bottom">JOIN THE TRIBE</div>
+</div>
+
+<footer>
+<a class="footer-element" href="http://football-tribe.com/about/">会社案内 Company Profile</a>
+</footer>
+
+<script>
+
+</script>
+
+</body>
+</html>
